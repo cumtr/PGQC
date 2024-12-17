@@ -80,7 +80,7 @@ the four other files report the exact sequence of the kmers for the different ca
 - `./OutputPGQC/MyPanGenomeGraph.PGQC.collapsed.txt`: List of _**collapsed**_ K-mers.
 
 
-## Compagnion scripts
+## Companion scripts
 
 PGQC comes with two companion scripts.
 
