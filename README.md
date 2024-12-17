@@ -6,7 +6,7 @@ We assume that single-copy K-mers found in an assembly and universally present a
 We thus propose simple metrics to describe a pangenome graph based on the proportion of single-copy and universal K-mers composing the assemblies that are:
 - _**Unique**_: Present only once and in full length in one of the nodes of the graph.
 - _**Duplicated**_: Present multiple times in the graph.
-- _**Collapsed**_: Fragmented abscent from the nodes due to the aggregation of non-orthologous sequences.
+- _**Collapsed**_: Fragmented over mutiple nodes due to the aggregation of non-orthologous sequences.
 
 The pipeline relies on [KMC](https://github.com/refresh-bio/KMC) to identify single-copy K-mers shared by all the assemblies (i.e., universal) composing a pangenome graph.
 
